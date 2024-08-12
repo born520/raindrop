@@ -1,6 +1,6 @@
 function start() {
   gapi.client.init({
-    'apiKey': 'AIzaSyCG1NFjt0DAwuWzapPzbz4-tLjPRfArFjw', // 여기에 실제 API 키 입력
+    'apiKey': 'AIzaSyBxoKywvkwR7h6YrZK4OeICatDhOoJm6wc', // 여기에 실제 API 키 입력
     'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
   }).then(function() {
     loadSheetData();
